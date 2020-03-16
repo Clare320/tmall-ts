@@ -12,16 +12,16 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
     "sourceMap": true,
-    "outDir": "out",
+    "outDir": "./out"
   },
   "include": [
-    "src", "hello.ts"
+    "src"
   ]
 }
