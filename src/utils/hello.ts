@@ -1,12 +1,10 @@
-
 function test(a: number, b: number) {
-    return a + b;
+  return a + b;
 }
 
-console.log('start');
+console.log("start");
 
 console.log(test(2, 3));
-console.log('end');
-
+console.log("end");
 
 export { test };
